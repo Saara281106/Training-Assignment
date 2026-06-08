@@ -1,0 +1,35 @@
+.first{
+    color :white;
+    background-color: red;
+    text-align: center;
+}
+.h{
+    color: red;
+}
+.li{
+    color: red;
+}
+.bu{
+    color: white;
+    background-color: red;
+    margin-left: 30px;
+}
+.l{
+    ul{
+        list-style-type: disc;
+    }
+    li{
+        display: inline;
+        margin: 10px;
+    }
+    background-color: red;
+}
+.text{
+    
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    
+
+}

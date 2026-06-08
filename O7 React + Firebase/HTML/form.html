@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h2>Registration Form</h2></legend>
+        <form action="thanks.html">
+        <table cellpadding="0" width="80%" align="center">
+            <tr height="50">
+                <th width="150" align="left"><label for="name">Student Name:</label></th>
+                <td width="250"><input type="text" id="name" placeholder="First name" required></td>
+                <td width="150" align="left"><input type="text" id="name" placeholder="Middle name"></td>
+                <td width="250"><input type="text" id="name" placeholder="Last name" required></td>
+            </tr>
+            <tr height="50">
+                <th width="150" align="left"><label for="f">Father's Name:</label></th>
+                <td width="250"><input type="text" id="f" placeholder="Enter your father's name" required></td>
+                <th width="150" align="left"><label for="m">Mother's name:</label></th>
+                <td width="250"><input type="text" id="m" placeholder="Enter your mother's name" required></td>
+            </tr>
+            <tr height="50">
+                <th width="150" align="left"><label for="dob">Date of Birth:</label></th>
+                <td width="250"><input type="date" id="dob" required></td>
+                <th width="150" align="left"><label name="g:">Gender:</label></th>
+                <td width="250"><label >Male</label> <input type="radio" name="g" required>
+                <label >Female</label> <input type="radio" name="g" required></td>
+            </tr>
+            <tr height="50">
+                <th width="150" align="left"><label for="" name="ww">Category:</label></th>
+                <td width="250"><label>Gen</label><input type="radio" name="ww" required>
+                    <label>OBC</label><input type="radio" name="ww" required>
+                    <label>SC/ST</label><input type="radio" name="ww" required>
+                </td>
+                <th width="150" align="left"><label name="hh">Handicapped:</label></th>
+                <td width="250"><label>Yes</label><input type="radio" name="hh" required>
+                    <label>No</label><input type="radio" name="hh" required>
+                </td>
+            </tr>
+            <tr height="50">
+                <th width="150" align="left"><label name="e">Ex-Serviceman:</label></th>
+                <td width="250"><label>Yes</label><input type="radio" name="e" required>
+                    <label>No</label><input type="radio" name="e"  required></td>
+                <th width="150" align="left"><label name="ews">EWS:</label></th>
+                <td width="250">
+                    <label>Yes</label><input type="radio" name="ews" required>
+                    <label>No</label><input type="radio" name="ews" required>
+                </td>
+            </tr>
+            <tr height="50">
+                <th width="150" align="left"><label for="mail">Email:</label></th>
+                <td width="250"><input type="email" id="mail" required></td>
+                <th width="150" align="left"><label for="mob">Mobile No.</label></th>
+                <td width="250"><input type="number" id="mob" required></td>
+            </tr>
+            <tr height="50">
+                <th width="150" align="left"><label for="ss">State:</label></th>
+                <td width="250"><select name="State:" id="ss" required>
+                    <option value="" disabled selected>Select any one</option>
+                    <option value="">Punjab</option>
+                    <option value="">Himachal Pardesh</option>
+                    <option value="">Haryana</option>
+                    <option value="">Gujrat</option>
+                    <option value="">Maharashtr</option>
+                </select></td>
+                <th width="150" align="left"><label for="cc">City:</label></th>
+                <td width="250"><select name="City:" id="cc" required>
+                    <option value="" disabled selected>Select any one</option>
+                    <option value="">Jalandhar</option>
+                    <option value="">Amritsar</option>
+                    <option value="">Ludhiana</option>
+                    <option value="">Mukeriyan</option>
+                    <option value="">Kapurthala</option>
+                </select></td>
+            </tr>
+            <tr height="50">
+                <th width="150" align="left"><label for="aa">Upload Photo:</label></th>
+                <td width="250"><input type="file" id="aa" required></td>
+                <th width="150" align="left"><label for="bb">Upload Signature</label></th>
+                <td width="250"><input type="file" id="bb" required></td>
+            </tr>
+        </table>
+        <center><button type="submit" align="center">Submit</button></center>
+        </form>    
+    </fieldset> 
+
+</body>
+</html>
