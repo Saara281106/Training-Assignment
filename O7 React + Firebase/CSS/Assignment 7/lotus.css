@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+.main{
+    /* width: fit-content;
+    margin: auto; */
+    height: 247px;
+    width: 300px;
+    background-color: rgba(192, 226, 247, 0.642);
+    background-image:none;
+    margin-top: 15%;
+    /* margin-left: 37%; */
+    transform: translateX(600px);
+    /* transform: translateY(200px); */
+}
+.flower{
+    display: flex;
+    justify-content: center;
+}
+.pattle{
+    
+    height: 70px;
+    width: 70px;
+    /* background-color: rgb(198, 60, 83); */
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+
+}
+.pattle1{
+    background-color: rgb(220, 87, 109);
+    transform: rotate(-97deg);
+    margin-top: 32px;
+    margin-right: -50px;
+    
+}
+.pattle2{
+    background-color: rgb(217, 111, 130);
+    transform: rotate(-75deg);
+    margin-top: 19px;
+    margin-right: -50px;
+}
+.pattle3{
+    background-color: rgb(220, 87, 109);
+    transform: rotate(-41deg);
+    margin-top: 14px;
+    z-index: 10;
+    /* margin-left: -52px; */
+}
+.pattle4{
+    background-color: rgb(217, 111, 130);
+    transform: rotate(-5deg);
+    margin-top: 21px;
+    margin-left: -50px;
+    z-index: 5;
+}
+.pattle5{
+    background-color: rgb(220, 87, 109);
+    transform: rotate(12deg);
+    margin-top: 34px;
+    margin-left: -54px;
+}
+.stemLeave{
+    display: flex;
+}
+.stem{
+    /* z-index: 10; */
+    margin-top: -10px;
+    margin-left: 25%;
+    margin-left: 10px;
+    height: 145px;
+    width: 2%;
+    background-color: green;
+}
+.leave{
+    background-color: green;
+    height: 70px;
+    width: 70px;
+    /* background-color: rgb(198, 60, 83); */
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+.leave1{
+    margin-left: 65px;
+    transform: rotate(70deg);
+}
+.leave2{
+    margin-top: 40px;
+
+}
+.ground{
+    background-color: green;
+    height: 7px;
+    width: 25%;
+    margin-left: 37%;
+}
