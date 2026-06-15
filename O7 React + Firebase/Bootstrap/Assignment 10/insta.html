@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="insta.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="first col-sm-12 col-md-7">
+          <img id="logo" class="ms-5 mt-5" src="instaLogo.png" alt="" />
+          <h1 class="one">See everyday moments from your</h1>
+          <h1 class="two">close friends.</h1>
+          <div class="im"><img id="image" src="instapics.webp" alt="" /></div>
+        </div>
+        <div class="second col">
+          <p class="para fs-5" style="color: white">Log into Instagram</p>
+          <div class="form-floating mb-3">
+            <input
+              style="background-color: rgba(0, 0, 0, 0.197)"
+              type="email"
+              class="form-control mt-5"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput" style="color: gray"
+              >Mobile number,username or email</label
+            >
+          </div>
+          <div class="form-floating">
+            <input
+              style="background-color: rgba(0, 0, 0, 0.197)"
+              type="password"
+              class="form-control"
+              id="floatingPassword"
+              placeholder="Password"
+            />
+            <label for="floatingPassword" style="color: gray">Password</label>
+            <div class="d-grid gap-2">
+              <br />
+
+              <button class="btn btn-primary" type="button">Log in</button>
+
+              <button type="button" class="btn text-light">
+                Forget Password?
+              </button>
+              <br />
+              <button type="button" class="btn btn-outline-light">
+                <i class="bi bi-facebook"></i> Login with facebook
+              </button>
+              <button type="button" class="btn btn-outline-info">
+                Create new account
+              </button>
+
+              <p class="meta text-light fs-5"><i class="bi bi-meta"></i> meta</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec row"></div>
+    </div>
+  </body>
+</html>

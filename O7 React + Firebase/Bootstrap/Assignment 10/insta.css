@@ -1,0 +1,43 @@
+.first{
+    background-color: rgba(0, 0, 0, 0.946);
+    /* height: 900px; */
+}
+.second{
+    background-color: rgba(0, 0, 0, 0.895);
+}
+#logo{
+    height: 100px;
+}
+.one{
+    text-align: center;
+    color: aliceblue;
+}
+.two{
+    text-align: center;
+    background: linear-gradient(50deg, #f75808 ,#ef0874 , #690f95);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+#image{
+    
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+}
+.im{
+    margin-left: 160px;
+}
+.para{
+    margin-top: 100px;
+}
+.meta{
+    text-align: center;
+}
+.sec{
+    background-color: black;
+    height: 100px;
+}
