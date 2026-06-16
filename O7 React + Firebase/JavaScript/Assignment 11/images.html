@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Images</title>
+    <style>
+      .main {
+        margin-left: 230px;
+        margin-top: 100px;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 70px;
+      }
+      .main1{
+        margin-top: 100px;
+        margin-left: 450px;
+        /* border: solid red; */
+      }
+      .fs{
+        border: 3px solid red;
+        margin: 10%;
+      }
+      .a1{
+        border: 3px solid red;
+      }
+      
+    </style>
+  </head>
+  <body>
+
+    
+    <div class="fs">
+    <div class="main1">
+      <img class="a1" id="a" src="mainpic.jpg" alt="" style="height: 160px"  />
+    </div>
+
+    <div class="main">
+      <div class="image1">
+        <img class="a1" src="pic1.jpeg" id="fun1" alt="" style="height: 160px " onmouseover="fun1()" onmouseout="back()" />
+      </div>
+      <div class="image2">
+        <img class="a1" src="pic2.jpg" id="fun2" alt="" style="height: 160px" onmouseover="fun2()" onmouseout="back()"/>
+      </div>
+      <div class="image3">
+        <img class="a1" src="pic3.jpg" id="fun3" alt="" style="height: 160px" onmouseover="fun3()" onmouseout="back()"/>
+      </div>
+    </div>
+    </div>
+    
+
+    <script src="./images.js"></script>
+  </body>
+</html>
