@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registeration</title>
+    <style>
+      .error {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+        <div class="mainForm" ></div>
+      
+        <legend><h1>Registration form</h1></legend>
+      
+        <form action="thanks.html" onsubmit="return handleSubmit()">
+
+          <label for="name">Name: </label>
+          <input type="text" id="name" placeholder="Enter Name" onkeyup="checkName()" />
+          <br>
+          <small id="nameError" class="error"></small>
+
+          <br /><br />
+
+          <label for="email">Email: </label>
+          <input type="email" id="email" placeholder="example@gmail.com" onkeyup="checkEmail()"/>
+          <br>
+          <small id="emailError" class="error"></small>
+
+          <br /><br />
+
+          <label for="num">Phone Number: </label>
+          <input type="number" name="num" id="num" placeholder="Number" onkeyup="checkNum()" />
+          <br>
+          <small id="numError" class="error"></small>
+
+          <br /><br />
+
+          <label for="pass">Password: </label>
+          <input type="password" id="pass" />
+          <br>
+          <small id="passError" class="error"></small>
+
+          <br /><br />
+
+          <button onclick="">Submit</button>
+        </form>
+      </div>
+    </fieldset>
+    
+
+    <script>
+        console.log("hellooooo");
+        function handleSubmit(){
+            let name = document.getElementById("name").value
+            let email = document.getElementById("email").value
+            let num = document.getElementById("num").value
+            let pass = document.getElementById("pass").value
+
+            if(name == null|| name == undefined || !name || name == ""){
+                document.getElementById("nameError").innerHTML="Name is required"
+                return false
+            }
+
+            else if(email == null|| email == undefined || !email || email == ""){
+                document.getElementById("emailError").innerHTML="Email is required"
+                return false
+            }
+
+            else if(num == null|| num == undefined || !num || num == ""){
+                document.getElementById("numError").innerHTML="Number is required"
+                return false
+            }
+
+            else if(pass == null|| pass == undefined || !pass || pass == ""){
+                document.getElementById("passError").innerHTML="Password is required"
+                return false
+            }
+
+            else{
+                return true;
+            }
+
+            
+
+        } 
+        function checkName(){
+
+            console.log("where is errooorrrrr??????");
+                let name = document.getElementById("name").value
+                let pattern = /^[A-Za-z ]+$/
+
+                if(pattern.test(name)){
+                    document.getElementById("nameError").innerHTML="";
+                    return true;
+        
+                }
+                else{
+                    document.getElementById("nameError").innerHTML="Invalid name";
+                    return false;
+                }
+
+            }
+
+        function checkEmail() {
+          console.log("dsjvghdvkljvkhevfklsn");
+            let email = document.getElementById("email").value
+            let pattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/
+            if (pattern.test(email)) {
+                document.getElementById("emailError").innerHTML = ""
+          
+            }
+            else {
+                document.getElementById("emailError").innerHTML = "Invalid email"
+                
+            }
+        }
+        function checkNum(){
+            let num = document.getElementById("num").value
+            let pattern = /^[6-9]+[0-9]{9}$/
+            if (pattern.test(num)) {
+                document.getElementById("numError").innerHTML = "";
+                return true;
+            }
+            else {
+                document.getElementById("numError").innerHTML = "Invalid number";
+                return false;
+            }
+        }
+    </script>
+  </body>
+</html>
