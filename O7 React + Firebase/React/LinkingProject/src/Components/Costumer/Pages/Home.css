@@ -1,0 +1,35 @@
+.heading1{
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+}
+.bg{
+    background-color: aquamarine;
+    height: 550px;
+    width: 100%;
+    background-image: url(../../../../public/img.jpg);
+    background-size: cover;
+    
+}
+.para{
+    color: white;
+    padding-left: 40px;
+    font-family: "Inconsolata", monospace;
+}
+.aboutH{
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+}
+.para2{
+    font-family: "Inconsolata", monospace;
+}
+.shop{
+    height: 400px;
+    
+}
+.heading3{
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+}
+.para3{
+    font-family: "Inconsolata", monospace;
+}
