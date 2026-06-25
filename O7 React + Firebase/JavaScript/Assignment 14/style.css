@@ -1,0 +1,33 @@
+.colH{
+    color: white;
+    background-color: rgb(128, 128, 128);
+}
+.colC{
+    background-color: rgba(128, 128, 128, 0.471);
+}
+p{
+    text-align: center;
+    font-size:20px;
+}
+input{
+    height: 40px;
+}
+select{
+    height: 30px;
+    width: 120px;
+    margin-left: 100px;
+}
+#success{
+    color: red;
+}
+.new{
+    margin-left: 120px;
+}
+.unitBtn{
+    margin-left: 10px;
+    width: 150px;
+}
+.nine{
+    margin-left: 90px;
+
+}
