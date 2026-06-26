@@ -51,10 +51,14 @@ export default function Header() {
                 <Link to="/404" className="dropdown-item">
                   404 Page
                 </Link>
+                
               </div>
             </div>
             <Link to="/contact" className="nav-item nav-link">
               Contact
+            </Link>
+            <Link to="/login" className="nav-item nav-link">
+              Login
             </Link>
           </div>
           <Link to="/" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">

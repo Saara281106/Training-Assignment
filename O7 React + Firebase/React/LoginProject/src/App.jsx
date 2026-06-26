@@ -10,6 +10,8 @@ import Cources from "./components/Pages/Cources"
 import Team from './components/Pages/DropdownPages/Team';
 import Testimonial from './components/Pages/DropdownPages/Testimonial';
 import Random from './components/Pages/DropdownPages/Random';
+import Login from './components/Pages/Login';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +25,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/cources" element={<Cources />} />
+            <Route path="/login" element={<Login />} />
 
             //Dropdown
             <Route path="/team" element={<Team/>} />
@@ -31,6 +34,8 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+
+      <ToastContainer />
     </>
   )
 }
