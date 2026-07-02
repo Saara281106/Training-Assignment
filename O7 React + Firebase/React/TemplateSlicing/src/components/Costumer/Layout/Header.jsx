@@ -64,6 +64,9 @@ export default function Header() {
                 <Link to="/contact" className="nav-item nav-link">
                   Contact
                 </Link>
+                <Link to="/login" className="nav-item nav-link">
+                  Login
+                </Link>
               </div>
               <div className="d-flex m-3 me-0">
                 <button
